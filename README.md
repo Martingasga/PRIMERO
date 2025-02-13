@@ -10,5 +10,18 @@ Para iniciar utilizando el Git Bash, es necesario declarar el usuario y correo e
 - **pwd**: Para ver las carpetas y archivos de la computadora.
 - **ls**: Para ver la lista del directorio.
 - **cd**: Para entrar a las carpetas.
-- **git clone**: Se utiliza para clonar los repositorios
+- **git clone**: Se utiliza para clonar los repositorios.
+
+Con el git clone también puedes clonar el repositorio para una carpeta específica:
+
+```git clone <repositorio> <mi-proyecto-clone>```
+
+El repositorio localizado en repositorio es clonado para una carpeta llamada:
+
+```mi-proyecto-clone```
+
+También puedes configurar el git clone y clonar el repositorio desde una branch específica, diferente a la original, de esta manera:
+
+```git clone -branch new_feature <repositorio>```
+
 - **git log**: Se utiliza para ver el historial del repositorio, quién ha editado archivos, etc.
