@@ -25,3 +25,19 @@ También puedes configurar el git clone y clonar el repositorio desde una branch
 ```git clone -branch new_feature <repositorio>```
 
 - **git log**: Se utiliza para ver el historial del repositorio, quién ha editado archivos, etc.
+
+Podemos visualizar todos los commits, uno en cada línea con el comando:
+
+```git log –oneline```
+
+Si, en lugar de menos informaciones, queremos ver más, como las alteraciones del commit, podemos usar:
+
+```git log -p```
+
+Y buscar informaciones por fecha:
+
+```git log --since=1.month.ago --until=1.day.ago```
+
+Tu también puedes formatear la visualización de las informaciones del commit con el comando:
+
+```git log --pretty="format:%h %s"```
