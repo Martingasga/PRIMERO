@@ -57,4 +57,4 @@ Tu también puedes formatear la visualización de las informaciones del commit c
 
 ## git pull
 
-Para verificar si el clon está actualizado.
+Para verificar si el clon está actualizado. En caso de que no, se descargan los cambios realizados de la nube a la computadora local.
