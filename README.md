@@ -7,19 +7,19 @@ Para ejecutar el sistema, debes poner:
 
 # Comandos para MINGW64 o Git Bash
 Para iniciar utilizando el Git Bash, es necesario declarar el usuario y correo electrónico. (Es importante recordar que el email debe ser el mismo que el repositorio a trabajar).
-## pwd
+## ```pwd```
 
 Para ver las carpetas y archivos de la computadora.
 
-## ls
+## ```ls```
 
 Para ver la lista del directorio.
 
-## cd
+## ```cd```
 
 Para entrar a las carpetas.
 
-## git clone
+## ```git clone```
 
 Se utiliza para clonar los repositorios.
 
@@ -35,7 +35,7 @@ También puedes configurar el git clone y clonar el repositorio desde una branch
 
 ```git clone -branch new_feature <repositorio>```
 
-## git log
+## ```git log```
 
 Se utiliza para ver el historial del repositorio, quién ha editado archivos, etc.
 
@@ -55,25 +55,25 @@ Tu también puedes formatear la visualización de las informaciones del commit c
 
 ```git log --pretty="format:%h %s"```
 
-## git pull
+## ```git pull```
 
 Para verificar si el clon está actualizado. En caso de que no, se descargan los cambios realizados de la nube a la computadora local.
 
-## git status
+## ```git status```
 
 Sirve para verificar que se hayan subido a la nube los cambios locales. Se debe utilizar el siguiente código para añadir el archivo que se modificó: 
 
 ```git add .``` o ```git add <nombre del archivo>```
 
-## git commit -m "<Nombre del commit>"
+## ```git commit -m "<Nombre del commit>"```
 
 Lo utilizamos para realizar un commit de los cambios realizados a un archivo.
 
-## git push
+## ```git push```
 
 Una vez que se ha creado el commit, lo utilizamos para subir los cambios realizados de forma local a la nube.
 
-## git diff <Nombre de archivo>
+## ```git diff <Nombre de archivo>```
 
 Lo utilizamos para ver los cambios realizados a un archivo.
 
