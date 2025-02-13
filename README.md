@@ -64,3 +64,11 @@ Para verificar si el clon está actualizado. En caso de que no, se descargan los
 Sirve para verificar que se hayan subido a la nube los cambios locales. Se debe utilizar el siguiente código para añadir el archivo que se modificó: 
 
 ```git add .``` o ```git add <nombre del archivo>```
+
+## git commit -m "<Nombre del commit>"
+
+Lo utilizamos para realizar un commit local de los cambios realizados.
+
+## git push
+
+Lo utilizamos para subir los cambios realizados de forma local a la nube.
