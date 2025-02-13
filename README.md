@@ -97,7 +97,7 @@ Este comando lo utilizamos para cambiar de ramas.
 
 Para mandar a github en caso de que se esté utilizando una rama diferente.
 
-## ```git merge <nombre de la rama>
+## ```git merge <nombre de la rama>```
 
 Utilizamos este comando para fucionar ambas ramas, cabe mencionar que es necesario realizar un switch a la rama principal o main antes de realizar esta operación.
 
