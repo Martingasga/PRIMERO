@@ -58,3 +58,9 @@ Tu también puedes formatear la visualización de las informaciones del commit c
 ## git pull
 
 Para verificar si el clon está actualizado. En caso de que no, se descargan los cambios realizados de la nube a la computadora local.
+
+## git status
+
+Sirve para verificar que se hayan subido a la nube los cambios locales. Se debe utilizar el siguiente código para añadir el archivo que se modificó: 
+
+```git add .``` o ```git add <nombre del archivo>```
