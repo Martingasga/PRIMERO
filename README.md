@@ -67,8 +67,16 @@ Sirve para verificar que se hayan subido a la nube los cambios locales. Se debe 
 
 ## git commit -m "<Nombre del commit>"
 
-Lo utilizamos para realizar un commit local de los cambios realizados.
+Lo utilizamos para realizar un commit de los cambios realizados a un archivo.
 
 ## git push
 
-Lo utilizamos para subir los cambios realizados de forma local a la nube.
+Una vez que se ha creado el commit, lo utilizamos para subir los cambios realizados de forma local a la nube.
+
+## git diff <Nombre de archivo>
+
+Lo utilizamos para ver los cambios realizados a un archivo.
+
+## git restore -source <numero de hash> <nombre de archivo>
+
+Nos sirve para restaurar un archivo a alguna versión previa. Se tiene que colocar el número de hash correspondiente al commit que se desea hacer la restauración.
