@@ -7,6 +7,26 @@ Para ejecutar el sistema, debes poner:
 
 # Comandos para MINGW64 o Git Bash
 Para iniciar utilizando el Git Bash, es necesario declarar el usuario y correo electrónico. (Es importante recordar que el email debe ser el mismo que el repositorio a trabajar).
+## ```git config --global user.name <name>```
+
+En primer lugar, utilizamos este comando para establecer el nombre de usuario.
+
+## ```git config --global user.email <email>```
+
+Luego, utilizamos este comando para indicar el correo electrónico. Es importante utilizar el mismo correo que el repositorio a trabajar.
+
+## ```git config --list```
+
+Lo utilizamos para comprobar las configuraciones anteriores.
+
+## ```git clone <url>```
+
+Es utilizado para clonar el git o repositorio que vamos a trabajar.
+
+## ```git init```
+
+Para inicializar el repositorio clonado.
+
 ## ```pwd```
 
 Para ver las carpetas y archivos de la computadora.
